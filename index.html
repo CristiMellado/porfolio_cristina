@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Cristina Mellado</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a href="#inicio" class="brand"><img src="/images/logo.png" alt="Cristina Mellado"></a>
+            <nav class="site-nav" aria-label="Navegación principal">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#experience" class="nav-link">Experiencia/Educación</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+        </div>
+    </header>
+    <div class="stars" id="stars"></div>
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="hero-header">
+              <img src="/images/profile.jpeg" alt="Cristina Mellado" class="profile-photo">
+              <div class="hero-name">
+                <h1>Cristina Mellado</h1>
+                <h2>Desarrolladora Full Stack</h2>
+              </div>
+            </div>
+                 
+            <div class="tech-icons">
+              <div class="tech-icon" title="Node.js"><img src="/images/logos/node-js-50.png" alt="Node.js" height="40"></div>
+              <div class="tech-icon" title="React"><img src="/images/logos/react-50.png" alt="React" height="40"></div>
+              <div class="tech-icon" title="Angular"><img src="/images/logos/angular-50.png" alt="Angular" height="40"></div>
+              <div class="tech-icon" title="TypeScript"><img src="/images/logos/typescript-50.png" alt="TypeScript" height="40"></div>
+              <div class="tech-icon" title="JavaScript"><img src="/images/logos/javascript-50.png" alt="JavaScript" height="40"></div>
+              <div class="tech-icon" title="Express"><img src="/images/logos/express-js-50.png" alt="Express" height="40"></div>
+              <div class="tech-icon" title="Java"><img src="/images/logos/java-50.png" alt="Java" height="40"></div>
+              <div class="tech-icon" title="Spring"><img src="/images/logos/spring-50.png" alt="Spring" height="40"></div>
+              <div class="tech-icon" title="MySql"><img src="/images/logos/mysql-50.png" alt="MySql" height="40"></div>
+              <div class="tech-icon" title="MongoDB"><img src="/images/logos/mongodb-50.png" alt="MongoDB" height="40"></div>
+            </div>
+
+            <p class="hero-description">
+                <span class="title-hero-desc"><i>“Quiero crear soluciones web que conecten personas y tecnología”</i></span><br>
+                Me apasiona transformar ideas en experiencias digitales funcionales y atractivas.
+                Disfruto aprendiendo nuevas tecnologías y buscando siempre la mejor forma de conectar a los usuarios con la aplicación de forma sencilla y amigable.
+            </p>
+            <div class="email-container">
+                <span class="email" id="email-text">aliciammellado@gmail.com</span>
+                <button id="copy-email" class="copy-btn" title="Copiar correo"><img src="/images/other/copy-50.png" height="30px" alt="ok"/></button>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/CristiMellado" class="social-icon" aria-label="GitHub" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/cristina-mellado/" class="social-icon" aria-label="LinkedIn" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+
+                <a href="/cv/CV CRISTI MELLADO.pdf" class="download-btn" download="CV_Cristina_Mellado.pdf">Descargar CV</a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <p>
+                    Soy una desarrolladora de aplicaciones web con formación de C.F.G.S. en Desarrollo de Aplicaciones Web y experiencia práctica con MEAN Stack (MongoDB, Express, Angular y Node.js). 
+                </p>
+                <p>
+                    Durante mi Formación en Centros de Trabajo tuve la oportunidad de participar en el desarrollo de una aplicación web/móvil destinada a mejorar la accesibilidad de personas con discapacidad intelectual para la Fundación AVA, lo que me permitió trabajar en equipo, aprender y aplicar buenas prácticas de desarrollo y reforzar mis conocimientos en programación.
+                </p>
+                <p>
+                    Actualmente estoy en búsqueda de mi primera oportunidad profesional en el sector IT donde pueda seguir aprendiendo, aportar mis conocimientos y crecer como desarrolladora.
+                </p>
+                <p>
+                    Me defino como una persona con interés por el aprendizaje continuo y el crecimiento profesional, trabajadora y comprometida, siempre dispuesta a salir de mi zona de confort para afrontar nuevos retos.
+                </p>
+            </div>
+        </section>
+
+        <!-- Últimos proyectos -->
+        <section id="proyectos">
+            <h2 class="section-title">Proyectos realizados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                  <a href="html/volavia.html">
+                    <div class="project-image"><img src="/images/projects/volavia_login.png" alt="Volavia"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Volavia</h3>
+                        <p class="project-description text-zinc-300">
+                            Aplicación web fullstack para la planificación de viajes, anécdotas y gastos de forma personalizada, visual y divertida.
+                        </p>
+                        <div class="project-tech" aria-label="Tecnologías usadas">
+                          <img src="/images/logos/java-50.png" alt="Java" title="Java">
+                          <img src="/images/logos/spring-50.png" alt="Spring" title="Spring">
+                          <img src="/images/logos/thymeleaf-50.png" alt="Thymeleaf" title="Thymeleaf">
+                          <img src="/images/logos/mysql-50.png" alt="MySQL" title="MySQL">
+                        </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="project-card">
+                    <a href="html/vivero.html">
+                        <div class="project-image"><img src="/images/projects/volavia_diary.jpeg" alt="Volavia"></div>
+                        <div class="project-content">
+                            <h3 class="project-title">Vivero</h3>
+                            <p class="project-description text-zinc-300">
+                                Aplicación web fullstack para la gestión de un vivero de plantas, con funcionalidades de inventario, ventas y clientes.
+                            </p>
+                        <div class="project-tech" aria-label="Tecnologías usadas">
+                          <img src="/images/logos/java-50.png" alt="Java" title="Java">
+                          <img src="/images/logos/spring-50.png" alt="Spring" title="Spring">
+                          <img src="/images/logos/thymeleaf-50.png" alt="Thymeleaf" title="Thymeleaf">
+                          <img src="/images/logos/mysql-50.png" alt="MySQL" title="MySQL">
+                        </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image"><img src="/images/projects/dashboardjpg.jpg" alt="Lucy"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dashboard de tareas
+            
+                        </h3>
+                        <p class="project-description text-zinc-300">
+                            Aplicación web frontend para la gestión de tareas y proyectos, incluyendo gestión de usuarios y un calendario personalizado de tareas.
+                        </p>
+                        <div class="project-tech" aria-label="Tecnologías usadas">
+                          <img src="/images/logos/ionic-50.png" alt="Ionic" title="Ionic">
+                          <img src="/images/logos/angular-50.png" alt="Angular" title="Angular">
+                          <img src="/images/logos/javascript-50.png" alt="Javascript" title="JavaScript">
+                          <img src="/images/logos/typescript-50.png" alt="TypeScript" title="TypeScript">
+                          <img src="/images/logos/express-js-50.png" alt="ExpressJS" title="ExpressJS">
+                          <img src="/images/logos/mongodb-50.png" alt="MongoDB" title="MongoDB">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiencia y Educación lado a lado -->
+        <div class="experience-education-grid">
+          <!-- Experiencia -->
+          <section id="experience">
+            <h2 class="section-title">Experiencia Profesional</h2>
+            <div class="section-item">
+          
+              <!-- Principal (IT) -->
+              <article class="experience-item experience-item--principal border-l-2 border-purple-400 relative p-4">
+                <div class="flex items-center gap-4 absolute -left-[7px]">
+                  <div class="size-3 rounded-full bg-purple-400"></div>
+                  <span class="text-sm text-purple-400">Abril 2025 - Junio 2025</span>
+                </div>
+                <div class="pt-8">
+                  <div class="experience-header">
+                    <h3 class="font-bold text-xl">Desarrollador Full Stack (F.C.T.)</h3>
+                    <span class="exp-badge exp-badge--it">IT</span>
+                  </div>
+                  <h4 class="text-zinc-300 mb-2 text-lg">i4life i+d | Gijón (España)</h4>
+                </div>
+              </article>
+          
+              <div class="exchange-section"></div>
+          
+              <!-- Otras (Legal) -->
+              <article class="experience-item experience-item--otro border-l-2 border-purple-400 relative p-4">
+                <div class="flex items-center gap-4 absolute -left-[7px]">
+                  <div class="size-3 rounded-full bg-purple-400"></div>
+                  <span class="text-sm text-purple-400">Agosto 2018 - Julio 2019</span>
+                </div>
+                <div class="pt-8">
+                  <div class="experience-header">
+                    <h3 class="font-bold text-xl">Abogado en Derecho Civil y Laboral</h3>
+                    <span class="exp-badge exp-badge--legal">Legal</span>
+                  </div>
+                  <h4 class="text-zinc-300 mb-2 text-lg">Despacho GSR | Saltillo (México)</h4>
+                </div>
+                <div class="flex items-center gap-4 absolute -left-[7px]">
+                  <div class="size-3 rounded-full bg-purple-400"></div>
+                  <span class="text-sm text-purple-400">Octubre 2016 - Febrero 2018</span>
+                </div>
+                <div class="pt-8">
+                  <div class="experience-header">
+                    <h3 class="font-bold text-xl">Inspector Federal del Trabajo</h3>
+                    <span class="exp-badge exp-badge--legal">Legal</span>
+                  </div>
+                  <h4 class="text-zinc-300 mb-2 text-lg">Secretaría del Trabajo y Previsión Social | Saltillo (México)</h4>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <!-- Educación -->
+          <section id="education">
+            <h2 class="section-title">Formación</h2> 
+            <div class="section-item"> 
+              <article class="experience-item experience-item--principal border-l-2 border-purple-400 relative p-4"> 
+                  <div class="flex items-center gap-4 absolute -left-[7px]"> 
+                    <div class="size-3 rounded-full bg-purple-400"></div> <span class="text-sm text-purple-400">2023 - 2025</span> 
+                  </div> 
+                  <div class="pt-8"> 
+                    <div class="experience-header">
+                    <h3 class="font-bold text-xl">C.F.G.S en Desarrollo de Aplicaciones Web (DAW)</h3>
+                    <span class="exp-badge exp-badge--it">IT</span>
+                  </div>
+                  <h4 class="text-zinc-300 mb-2 text-lg">Universidad Laboral de Gijón</h4> 
+                  </div> 
+              </article> 
+              <br>
+                <article class="experience-item experience-item--principal border-l-2 border-purple-400 relative p-4"> 
+                  <div class="flex items-center gap-4 absolute -left-[7px]"> 
+                    <div class="size-3 rounded-full bg-purple-400"></div> <span class="text-sm text-purple-400">2011 - 2016</span> 
+                  </div> 
+                  <div class="pt-8"> 
+                    <div class="experience-header">
+                    <h3 class="font-bold text-xl">Licenciatura en Derecho</h3>
+                    <span class="exp-badge exp-badge--legal">Legal</span>
+                  </div>
+                  <h4 class="text-zinc-300 mb-2 text-lg">Universidad Autónoma de Coahuila (México)</h4> 
+                  
+                  <!-- Intercambios -->
+                  <div class="exchange-section">
+                    <h5 class="exchange-title">Intercambios estudiantiles</h5>
+                    <p>Universidad de León (España) | 2014</p>
+                    <p>Benemérita Universidad Autónoma de Puebla (México) | 2015</p>
+                  </div>
+                  </div> 
+              </article>
+              </div> 
+            </section>
+        </div>
+
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <h2 class="section-title">Habilidades <span class="tipoHab">Técnicas</span></h2>
+            <div class="skills-categories">
+              
+              <!-- Frontend -->
+              <div class="skills-category">
+                <h4 class="skills-category__title">Frontend</h4>
+                <div class="skills-grid">
+                  <article class="skill-card">
+                    <div class="skill-header">
+                        <img src="/images/logos/angular-50.png" alt="Angular" class="skill-icon">
+                        <span class="skill-name">Angular</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 80%"></span></div>
+                  </article>
+
+                  <article class="skill-card">
+                    <div class="skill-header">
+                        <img src="/images/logos/react-50.png" alt="React" class="skill-icon">
+                        <span class="skill-name">React</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 80%"></span></div>
+                  </article>
+
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/typescript-50.png" alt="TypeScript" class="skill-icon">
+                      <span class="skill-name">TypeScript</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 80%"></span></div>
+                  </article>
+
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/javascript-50.png" alt="JavaScript" class="skill-icon">
+                      <span class="skill-name">JavaScript</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 85%"></span></div>
+                  </article>
+
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/html-50.png" alt="HTML" class="skill-icon">
+                      <span class="skill-name">HTML</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 90%"></span></div>
+                  </article>
+
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/css-50.png" alt="CSS" class="skill-icon">
+                      <span class="skill-name">CSS</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 80%"></span></div>
+                  </article>
+                  
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/ionic-50.png" alt="Ionic" class="skill-icon">
+                      <span class="skill-name">Ionic</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 70%"></span></div>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Backend -->
+              <div class="skills-category">
+                <h4 class="skills-category__title">Backend</h4>
+                <div class="skills-grid">
+                  <article class="skill-card">
+                    <div class="skill-header">
+                        <img src="/images/logos/node-js-50.png" alt="Node" class="skill-icon">
+                        <span class="skill-name">NodeJS</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 80%"></span></div>
+                  </article>
+
+                  <article class="skill-card">
+                    <div class="skill-header">
+                        <img src="/images/logos/express-js-50.png" alt="Express" class="skill-icon">
+                        <span class="skill-name">ExpressJS</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 80%"></span></div>
+                  </article>
+
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/java-50.png" alt="Java" class="skill-icon">
+                      <span class="skill-name">Java</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 80%"></span></div>
+                  </article>
+                
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/spring-50.png" alt="Spring" class="skill-icon">
+                      <span class="skill-name">Spring</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 75%"></span></div>
+                  </article>
+
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/thymeleaf-50.png" alt="Thymeleaf" class="skill-icon">
+                      <span class="skill-name">Thymeleaf</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 70%"></span></div>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Other -->
+              <div class="skills-category">
+                <h4 class="skills-category__title">Otros</h4>
+                <div class="skills-grid">
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/git-50.png" alt="Git" class="skill-icon">
+                      <span class="skill-name">Git</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 85%"></span></div>
+                  </article>
+
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/mysql-50.png" alt="MySQL" class="skill-icon">
+                      <span class="skill-name">MySQL</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 80%"></span></div>
+                  </article>
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/mongodb-50.png" alt="MongoDB" class="skill-icon">
+                      <span class="skill-name">MongoDB</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 80%"></span></div>
+                  </article>
+                  
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/asana-50.png" alt="Asana" class="skill-icon">
+                      <span class="skill-name">Asana</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 60%"></span></div>
+                  </article>
+
+                  <article class="skill-card">
+                    <div class="skill-header">
+                      <img src="/images/logos/postman-50.png" alt="Postman" class="skill-icon">
+                      <span class="skill-name">Postman</span>
+                    </div>
+                    <div class="skill-meter"><span style="width: 75%"></span></div>
+                  </article>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blandas -->
+            <section id="habilidades">
+            <h2 class="section-title" style="margin-top: 2rem;">Habilidades <span class="tipoHab">Blandas</span></h2>
+            <div class="soft-skills">
+              <span class="soft-chip">Proactividad</span>
+              <span class="soft-chip">Responsabilidad</span>
+              <span class="soft-chip">Trabajo en equipo</span>
+              <span class="soft-chip">Resolución de problemas</span>
+              <span class="soft-chip">Organización</span>
+              <span class="soft-chip">Aprendizaje continuo</span>
+              <span class="soft-chip">Ética profesional</span>
+              <span class="soft-chip">Compromiso</span>
+            </div>
+            </section>
+          </section>
+
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="site-footer__inner">
+            <a href="#inicio" class="brand"><img src="/images/logo.png" alt="Cristina Mellado"></a>
+        </div>
+    </footer>
+    <button class="back-to-top" aria-label="Volver arriba" title="Volver arriba">↑</button>
+</body> 
+<script src="/js/scripts.js"></script>
+</html>
