@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Consumo</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta
+      name="description"
+      content="Calculadora de Consumo y Propinas: aplicación web desarrollada con React, Vite y Tailwind CSS."
+    />
+  </head>
+
+  <body class="bg-slate-950 text-slate-100 font-sans flex flex-col min-h-screen items-center justify-center px-6">
+    <!-- Volver -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="/index.html#inicio" class="brand">CM</a>
+        <nav class="site-nav" aria-label="Navegación principal">
+          <a href="/index.html#inicio" class="nav-link">Inicio</a>
+          <a href="/index.html#sobre-mi" class="nav-link">Sobre mí</a>
+          <a href="/index.html#proyectos" class="nav-link">Proyectos</a>
+          <a href="/index.html#education" class="nav-link">Educación</a>
+          <a href="/index.html#habilidades" class="nav-link">Habilidades</a>
+        </nav>
+        <a href="/index.html#proyectos" class="text-indigo-400 hover:text-indigo-300 text-sm">&larr; Volver</a>
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+
+
+    <!-- Contenido principal -->
+    <main class="text-center max-w-xl space-y-6">
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white">Calculadora de Consumo</h1>
+
+      <p class="text-slate-400 text-lg leading-relaxed">
+        Aplicación web desarrollada con <strong>React</strong> y <strong>Vite</strong> para calcular el consumo total y
+        propinas de manera rápida y precisa. Incluye optimización de rendimiento mediante <code>useMemo</code> y
+        <code>useCallback</code>
+        para evitar renderizados innecesarios.
+      </p>
+
+      <div>
+        <h2 class="text-sm uppercase tracking-widest text-slate-500 mb-3">Tecnologías</h2>
+        <div class="flex flex-wrap justify-center gap-2 text-sm text-slate-300">
+          <img src="/images/logos/react-50.png" alt="React" title="react"/>
+          <img src="/images/logos/tailwind.png" alt="tailwind" title="tailwind" />
+          <img src="/images/logos/vite.png" alt="vite" title="vite" />
+        </div>
+      </div>
+
+      <a
+        href="https://effervescent-malasada-80aa56.netlify.app/"
+        class="inline-block mt-4 px-6 py-3 text-indigo-400 border border-indigo-400 rounded-xl hover:bg-indigo-400 hover:text-slate-950 transition-colors"
+      >
+        Ver proyecto en línea
+      </a>
+    </main>
+
+    <!-- Footer -->
+    <footer class="absolute bottom-6 text-xs text-slate-600">© 2025 Cristina</footer>
+  </body>
+</html>
