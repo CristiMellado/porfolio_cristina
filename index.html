@@ -115,11 +115,9 @@
           </p>
           <p>
             Actualmente estoy en búsqueda de mi primera oportunidad profesional en el sector IT donde pueda seguir
-            aprendiendo, aportar mis conocimientos y crecer como desarrolladora.
-          </p>
-          <p>
-            Me defino como una persona con interés por el aprendizaje continuo y el crecimiento profesional, trabajadora
-            y comprometida, siempre dispuesta a salir de mi zona de confort para afrontar nuevos retos.
+            aprendiendo, aportar mis conocimientos y crecer como desarrolladora. Me defino como una persona con interés
+            por el aprendizaje continuo y el crecimiento profesional, trabajadora y comprometida, siempre dispuesta a
+            salir de mi zona de confort para afrontar nuevos retos.
           </p>
         </div>
       </section>
@@ -149,11 +147,18 @@
 
           <div class="project-card">
             <a href="html/calculadora.html">
-              <div class="project-image"><img src="/images/projects/calculadora.png" alt="calculadora" /></div>
+              <div class="h-64 overflow-hidden rounded-xl shadow-md">
+                <img
+                  src="/images/projects/calculadora.png"
+                  alt="calculadora"
+                  class="w-full h-full object-cover object-top"
+                />
+              </div>
               <div class="project-content">
                 <h3 class="project-title">Calculadora de Consumo y Propinas</h3>
                 <p class="project-description text-zinc-300">
-                 Es una aplicación web que permite calcular el consumo total y las propinas de manera rápida y precisa, desarrollada con React, Vite y Tailwind CSS
+                  Es una aplicación web que permite calcular el consumo total y las propinas de manera rápida y precisa,
+                  desarrollada con React, Vite y Tailwind CSS
                 </p>
                 <div class="project-tech" aria-label="Tecnologías usadas">
                   <img src="/images/logos/react-50.png" alt="React" title="react" />
@@ -165,6 +170,26 @@
           </div>
 
           <div class="project-card">
+            <a href="html/contador-calorias.html">
+              <div class="h-64 overflow-hidden rounded-xl shadow-md">
+                <img src="/images/projects/calorias.png" alt="calorias" class="w-full h-full object-cover object-top" />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Contador Calorias</h3>
+                <p class="project-description text-zinc-300">
+                  Es una aplicación web que permite registrar comidas y ejercicios para calcular el balance total de
+                  calorías consumidas y quemadas, desarrollada con React, Vite y Tailwind CSS.
+                </p>
+                <div class="project-tech" aria-label="Tecnologías usadas">
+                  <img src="/images/logos/react-50.png" alt="React" title="react" />
+                  <img src="/images/logos/tailwind.png" alt="tailwind" title="tailwind" />
+                  <img src="/images/logos/vite.png" alt="vite" title="vite" />
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- <div class="project-card">
             <div class="project-image"><img src="/images/projects/dashboardjpg.jpg" alt="Lucy" /></div>
             <div class="project-content">
               <h3 class="project-title">Dashboard de tareas</h3>
@@ -181,7 +206,7 @@
                 <img src="/images/logos/mongodb-50.png" alt="MongoDB" title="MongoDB" />
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
@@ -288,60 +313,53 @@
           <div class="skills-category">
             <h4 class="skills-category__title">Frontend</h4>
             <div class="skills-grid">
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/angular-50.png" alt="Angular" class="skill-icon" />
                   <span class="skill-name">Angular</span>
                 </div>
-                <div class="skill-meter"><span style="width: 80%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/react-50.png" alt="React" class="skill-icon" />
                   <span class="skill-name">React</span>
                 </div>
-                <div class="skill-meter"><span style="width: 80%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/typescript-50.png" alt="TypeScript" class="skill-icon" />
                   <span class="skill-name">TypeScript</span>
                 </div>
-                <div class="skill-meter"><span style="width: 80%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/javascript-50.png" alt="JavaScript" class="skill-icon" />
                   <span class="skill-name">JavaScript</span>
                 </div>
-                <div class="skill-meter"><span style="width: 85%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/html-50.png" alt="HTML" class="skill-icon" />
                   <span class="skill-name">HTML</span>
                 </div>
-                <div class="skill-meter"><span style="width: 90%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/css-50.png" alt="CSS" class="skill-icon" />
                   <span class="skill-name">CSS</span>
                 </div>
-                <div class="skill-meter"><span style="width: 80%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/ionic-50.png" alt="Ionic" class="skill-icon" />
                   <span class="skill-name">Ionic</span>
                 </div>
-                <div class="skill-meter"><span style="width: 70%"></span></div>
               </article>
             </div>
           </div>
@@ -350,44 +368,39 @@
           <div class="skills-category">
             <h4 class="skills-category__title">Backend</h4>
             <div class="skills-grid">
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/node-js-50.png" alt="Node" class="skill-icon" />
                   <span class="skill-name">NodeJS</span>
                 </div>
-                <div class="skill-meter"><span style="width: 80%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/express-js-50.png" alt="Express" class="skill-icon" />
                   <span class="skill-name">ExpressJS</span>
                 </div>
-                <div class="skill-meter"><span style="width: 80%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/java-50.png" alt="Java" class="skill-icon" />
                   <span class="skill-name">Java</span>
                 </div>
-                <div class="skill-meter"><span style="width: 80%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/spring-50.png" alt="Spring" class="skill-icon" />
                   <span class="skill-name">Spring</span>
                 </div>
-                <div class="skill-meter"><span style="width: 75%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/thymeleaf-50.png" alt="Thymeleaf" class="skill-icon" />
                   <span class="skill-name">Thymeleaf</span>
                 </div>
-                <div class="skill-meter"><span style="width: 70%"></span></div>
               </article>
             </div>
           </div>
@@ -396,43 +409,38 @@
           <div class="skills-category">
             <h4 class="skills-category__title">Otros</h4>
             <div class="skills-grid">
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/git-50.png" alt="Git" class="skill-icon" />
                   <span class="skill-name">Git</span>
                 </div>
-                <div class="skill-meter"><span style="width: 85%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/mysql-50.png" alt="MySQL" class="skill-icon" />
                   <span class="skill-name">MySQL</span>
                 </div>
-                <div class="skill-meter"><span style="width: 80%"></span></div>
               </article>
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/mongodb-50.png" alt="MongoDB" class="skill-icon" />
                   <span class="skill-name">MongoDB</span>
                 </div>
-                <div class="skill-meter"><span style="width: 80%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/asana-50.png" alt="Asana" class="skill-icon" />
                   <span class="skill-name">Asana</span>
                 </div>
-                <div class="skill-meter"><span style="width: 60%"></span></div>
               </article>
 
-              <article class="skill-card">
+              <article>
                 <div class="skill-header">
                   <img src="/images/logos/postman-50.png" alt="Postman" class="skill-icon" />
                   <span class="skill-name">Postman</span>
                 </div>
-                <div class="skill-meter"><span style="width: 75%"></span></div>
               </article>
             </div>
           </div>
@@ -440,7 +448,7 @@
 
         <!-- Blandas -->
         <section id="habilidades">
-          <h2 class="section-title" style="margin-top: 2rem">Habilidades <span class="tipoHab">Blandas</span></h2>
+          <h2 class="section-title" style="margin-top: 3rem">Habilidades <span class="tipoHab">Blandas</span></h2>
           <div class="soft-skills">
             <span class="soft-chip">Proactividad</span>
             <span class="soft-chip">Responsabilidad</span>
