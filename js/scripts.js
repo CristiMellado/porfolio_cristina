@@ -98,7 +98,7 @@ if (navToggle && siteNav) {
 // Copiar email
 const copyBtn = document.getElementById("copy-email");
 const emailText = document.getElementById("email-text");
-const originalBtnHTML = copyBtn.innerHTML;
+/*const originalBtnHTML = copyBtn.innerHTML;
 copyBtn.addEventListener("click", async () => {
   try {
     await navigator.clipboard.writeText(emailText.textContent);
@@ -107,4 +107,4 @@ copyBtn.addEventListener("click", async () => {
   } catch {
     alert("No se pudo copiar el correo 😅");
   }
-});
+});*/

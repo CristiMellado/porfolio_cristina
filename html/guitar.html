@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador de Calorías</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Tienda de Guitarra." />
+  </head>
+
+  <body class="bg-slate-950 text-slate-100 font-sans flex flex-col min-h-screen items-center justify-center px-6">
+    <!-- Volver -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="/index.html#inicio" class="brand"><img src="/images/logo.png" alt="Cristina Mellado" /></a>
+        <nav class="site-nav" aria-label="Navegación principal">
+          <a href="/index.html#inicio" class="nav-link">Inicio</a>
+          <a href="/index.html#sobre-mi" class="nav-link">Sobre mí</a>
+          <a href="/index.html#proyectos" class="nav-link">Proyectos</a>
+          <a href="/index.html#education" class="nav-link">Educación</a>
+          <a href="/index.html#habilidades" class="nav-link">Habilidades</a>
+        </nav>
+        <a href="/index.html#proyectos" class="text-indigo-400 hover:text-indigo-300 text-sm">&larr; Volver</a>
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+    <div class="stars" id="stars"></div>
+
+    <!-- Contenido principal -->
+    <main class="text-center max-w-xl space-y-6">
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white">Tienda de Guitarras</h1>
+
+      <p class="text-slate-400 text-lg leading-relaxed">
+        Aplicación web desarrollada con <strong>React</strong>, <strong>Vite</strong> y <strong>TypeScript</strong> que
+        simula una tienda de guitarras. Permite añadir guitarras al carrito, incrementar o decrementar sus cantidades,
+        eliminar productos y vaciar el carrito por completo. Implementa la gestión de estado mediante
+        <code>useReducer</code> y guarda los datos de forma persistente utilizando <code>localStorage</code>, ofreciendo
+        una experiencia rápida, fluida y moderna.
+      </p>
+
+      <div>
+        <h2 class="text-l uppercase tracking-widest text-purple-400 mb-3">Tecnologías</h2>
+        <div class="flex flex-wrap justify-center gap-2 text-sm text-slate-300">
+          <img src="/images/logos/react-50.png" alt="React" title="react" />
+          <img src="/images/logos/typescript-50.png" alt="TypeScript" title="TypeScript" />
+          <img src="/images/logos/vite.png" alt="vite" title="vite" />
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center gap-3">
+        <a
+          href="https://preeminent-dasik-3fb63f.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="download-btn inline-flex items-center gap-2"
+        >
+          Ver proyecto en línea
+        </a>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="absolute bottom-6 text-xs text-slate-600">© 2025 Cristina Mellado</footer>
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>
